@@ -34,7 +34,6 @@ if(HPX_WITH_DISTRIBUTED_RUNTIME)
     runtime/parcelset/parcelport.cpp
     runtime/parcelset/put_parcel.cpp
     runtime/set_parcel_write_handler.cpp
-    runtime/trigger_lco.cpp
     runtime_distributed.cpp
     util/generate_unique_ids.cpp
     util/pool_timer.cpp
@@ -111,7 +110,6 @@ if(HPX_WITH_DISTRIBUTED_RUNTIME)
     hpx/runtime/components/binpacking_distribution_policy.hpp
     hpx/runtime/components/colocating_distribution_policy.hpp
     hpx/runtime/components/default_distribution_policy.hpp
-    hpx/runtime/components_fwd.hpp
     hpx/runtime/components/target_distribution_policy.hpp
     hpx/runtime/components/unwrapping_result_policy.hpp
     hpx/runtime/find_here.hpp
@@ -138,11 +136,8 @@ if(HPX_WITH_DISTRIBUTED_RUNTIME)
     hpx/runtime/parcelset/put_parcel.hpp
     hpx/runtime/runtime_fwd.hpp
     hpx/runtime/set_parcel_write_handler.hpp
-    hpx/runtime/trigger_lco.hpp
-    hpx/runtime/trigger_lco_fwd.hpp
     hpx/traits/action_message_handler.hpp
     hpx/traits/action_serialization_filter.hpp
-    hpx/traits/is_continuation.hpp
     hpx/util/bind_action.hpp
     hpx/util/connection_cache.hpp
     hpx/util/functional/segmented_iterator_helpers.hpp

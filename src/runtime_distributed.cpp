@@ -41,6 +41,7 @@
 #include <hpx/runtime/parcelset_fwd.hpp>
 #include <hpx/runtime/runtime_fwd.hpp>
 #include <hpx/runtime_components/console_error_sink.hpp>
+#include <hpx/runtime_components/console_logging.hpp>
 #include <hpx/runtime_components/server/console_error_sink.hpp>
 #include <hpx/runtime_configuration/runtime_configuration.hpp>
 #include <hpx/runtime_distributed.hpp>

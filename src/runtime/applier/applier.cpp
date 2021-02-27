@@ -8,11 +8,11 @@
 
 #include <hpx/config.hpp>
 
-#include <hpx/actions/continuation.hpp>
 #include <hpx/agas/addressing_service.hpp>
 #include <hpx/agas/agas_fwd.hpp>
 #include <hpx/assert.hpp>
 #include <hpx/async_distributed/applier/applier.hpp>
+#include <hpx/async_distributed/continuation.hpp>
 #include <hpx/components_base/agas_interface.hpp>
 #include <hpx/components_base/pinned_ptr.hpp>
 #include <hpx/execution_base/register_locks.hpp>

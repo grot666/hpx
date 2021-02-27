@@ -15,7 +15,7 @@
 #include <hpx/runtime_components_base/component_factory.hpp>
 #include <hpx/runtime_components_base/component_registry.hpp>
 #include <hpx/runtime_components_base/derived_component_factory.hpp>
-
+#include <hpx/runtime_components/distributed_metadata_base.hpp>
 #include <hpx/runtime_components/new.hpp>
 
 #include <hpx/async_colocated/server/destroy_component.hpp>
@@ -24,7 +24,6 @@
 
 #include <hpx/components/client.hpp>
 #include <hpx/components/client_base.hpp>
-#include <hpx/components/distributed_metadata_base.hpp>
 #include <hpx/components/executor_component.hpp>
 #include <hpx/components/get_ptr.hpp>
 
